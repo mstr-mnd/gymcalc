@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 --version)",
+      "Bash(npm --version)",
+      "WebSearch",
+      "WebFetch(domain:creativewidgets.io)",
+      "Bash(npx create-next-app@latest /Users/artyom/Projects/prjct --ts --tailwind --app --no-src-dir --eslint --import-alias \"@/*\" --use-npm --turbopack --yes)"
+    ]
+  }
+}
