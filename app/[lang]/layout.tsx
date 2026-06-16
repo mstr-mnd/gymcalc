@@ -18,6 +18,11 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  // Paste your Search Console verification code into NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+  // (env) when you verify the domain; the meta tag then appears automatically.
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  },
 };
 
 export const viewport: Viewport = {
@@ -73,6 +78,12 @@ export default async function LangLayout({
               <a href="#faq" className="hidden hover:text-text sm:inline">
                 {dict.header.faq}
               </a>
+              <Link
+                href={`/${locale}/blog`}
+                className="hidden hover:text-text sm:inline"
+              >
+                {dict.footer.blog}
+              </Link>
               <LangSwitcher current={locale} />
               <a href="#calculator" className="btn-accent px-4 py-2 text-sm">
                 {dict.header.calculate}
@@ -90,6 +101,15 @@ export default async function LangLayout({
             <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs font-semibold">
               <Link href={`/${locale}`} className="hover:text-text">
                 {dict.footer.home}
+              </Link>
+              <Link href={`/${locale}/about`} className="hover:text-text">
+                {dict.footer.about}
+              </Link>
+              <Link href={`/${locale}/blog`} className="hover:text-text">
+                {dict.footer.blog}
+              </Link>
+              <Link href={`/${locale}/widget`} className="hover:text-text">
+                {dict.footer.widget}
               </Link>
               <Link href={`/${locale}/privacy`} className="hover:text-text">
                 {dict.footer.privacy}

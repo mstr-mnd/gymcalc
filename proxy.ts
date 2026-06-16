@@ -24,6 +24,11 @@ function detectLocale(req: NextRequest): string {
 export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // The embeddable widget lives outside the localized routes.
+  if (pathname === "/embed" || pathname.startsWith("/embed/")) {
+    return NextResponse.next();
+  }
+
   // Already locale-prefixed? Let it through.
   const hasLocale = locales.some(
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)

@@ -14,7 +14,7 @@ const en = {
     badge: "Free, no sign-up",
     title: "Creatine Calculator",
     subtitle:
-      "How much creatine should you take? Enter your weight and body fat to find out.",
+      "How much creatine should you take? Get a precise daily dose based on your lean body mass, not just your weight.",
   },
   calc: {
     youAre: "You are",
@@ -79,6 +79,22 @@ const en = {
       q: "Is creatine monohydrate safe?",
       a: "Creatine monohydrate is one of the most researched supplements and is considered safe for healthy adults at normal doses. If you have a kidney condition or take medication, check with your doctor first.",
     },
+    {
+      q: "Does creatine damage your kidneys?",
+      a: "For healthy people, no. Years of research show normal creatine doses do not harm kidney function. The worry comes from creatine slightly raising creatinine, a marker used in kidney tests, but that is a harmless side effect, not damage. If you already have kidney disease, check with your doctor first.",
+    },
+    {
+      q: "Can I mix creatine with protein or coffee?",
+      a: "Yes to both. Stirring creatine into a protein shake is fine and common. The old idea that caffeine cancels out creatine has not held up, so having it with coffee is fine too. Warm or cold drinks both work; just stir well.",
+    },
+    {
+      q: "How much creatine should I take for my weight?",
+      a: "It depends on your lean mass, not just total weight, which is why the calculator asks for body fat. As a rough guide, most people land at 3–5 g a day: lighter or leaner people toward 3 g, heavier or more muscular people toward 5 g or a bit more.",
+    },
+    {
+      q: "Should I take creatine on rest days?",
+      a: "Yes. The goal is to keep your muscles saturated, so take your daily dose every day, including rest days. On rest days the timing does not matter at all.",
+    },
   ],
   about: {
     title: "Is creatine actually worth it?",
@@ -107,13 +123,80 @@ const en = {
       },
     ],
   },
+  byline: {
+    text: "Based on ISSN creatine guidelines",
+    published: "Published 16 June 2026",
+    updated: "Updated 16 June 2026",
+  },
+  sources: {
+    title: "Sources",
+    intro:
+      "These numbers are not guesswork. The dosing follows the International Society of Sports Nutrition (ISSN) — the main scientific consensus on creatine.",
+    formulaNote:
+      "Why we dose by lean mass: creatine is stored in muscle, so lean (fat-free) mass is a better basis than total weight. The standard maintenance dose is 3–5 g a day, and our figure of about 0.06 g per kg of lean mass lands in that range for most people. The optional loading phase (around five times maintenance for 5–7 days) mirrors the classic ~20 g/day protocol from the research.",
+    items: [
+      {
+        label: "ISSN Position Stand: Safety and Efficacy of Creatine Supplementation (2017)",
+        url: "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0173-z",
+      },
+      {
+        label: "ISSN: Creatine Supplementation in Exercise, Sport, and Medicine (2021)",
+        url: "https://jissn.biomedcentral.com/articles/10.1186/s12970-021-00412-w",
+      },
+    ],
+  },
+  aboutPage: {
+    metaTitle: "About CreatineCalc — How We Calculate Creatine Doses",
+    metaDescription:
+      "Who is behind CreatineCalc, how the creatine dose is worked out, and the research it is based on.",
+    title: "About CreatineCalc",
+    intro:
+      "CreatineCalc is a small, independent tool with one job: tell you how much creatine to take, without the fluff. No accounts, no upsells, no wall of pop-ups — enter your weight and body fat, get a clear number.",
+    methodologyTitle: "How the dose is calculated",
+    methodology1:
+      "Creatine is stored in your muscles, so we base the dose on your lean body mass (your weight minus fat) rather than total weight. You pick your body-fat level from the silhouettes, we estimate how much of you is muscle, and dose from there.",
+    methodology2:
+      "Maintenance is about 0.06 g per kg of lean mass per day, which comes out to the usual 3–5 g for most people. The optional loading phase is roughly five times that for the first 5–7 days, matching the ~20 g/day protocol used in studies. All of it follows ISSN guidance (see the Sources section on the home page).",
+    disclaimerTitle: "Not medical advice",
+    disclaimer:
+      "This is an educational tool. Creatine monohydrate is well studied and safe for most healthy adults, but if you have a kidney condition or take medication, talk to a doctor first.",
+    contactTitle: "Contact",
+    contactText: "Spotted a mistake or have a question? Email us at",
+    back: "← Back to the calculator",
+  },
   footer: {
     disclaimer:
       "This is an educational tool, not medical advice. Creatine monohydrate is well studied and safe for most healthy adults, but check with a doctor if you have kidney problems or take medication.",
     home: "Home",
+    about: "About",
+    blog: "Guides",
+    widget: "Embed",
     privacy: "Privacy Policy",
     cookieSettings: "Cookie settings",
     rights: "All rights reserved.",
+  },
+  blog: {
+    metaTitle: "Creatine Guides & Articles — CreatineCalc",
+    metaDescription:
+      "Plain-language guides on creatine: dosing, loading, timing, safety, and more.",
+    title: "Creatine guides",
+    intro: "Short, practical reads on getting creatine right.",
+    backToBlog: "← All guides",
+    ctaTitle: "Find your creatine dose",
+    ctaNote: "Enter your weight and body fat to get your daily dose in seconds.",
+    ctaButton: "Open the calculator",
+  },
+  widget: {
+    metaTitle: "Embed the Creatine Calculator on Your Site",
+    metaDescription:
+      "Add the free creatine calculator to your website with one line of code.",
+    title: "Embed this calculator",
+    intro:
+      "Run a fitness site, blog, or forum? Drop the creatine calculator into any page with the code below. It is free — a small credit link back to us is all we ask.",
+    codeTitle: "Copy and paste this code",
+    copy: "Copy code",
+    copied: "Copied!",
+    previewTitle: "Live preview",
   },
   cookie: {
     text: "We use cookies to remember your settings and, if you agree, to measure traffic and show ads. See our",
@@ -180,7 +263,7 @@ const ru: Dict = {
     badge: "Бесплатно, без регистрации",
     title: "Калькулятор креатина",
     subtitle:
-      "Сколько креатина вам нужно? Введите вес и процент жира, чтобы узнать.",
+      "Сколько креатина вам нужно? Точная суточная доза по сухой массе тела, а не просто по весу.",
   },
   calc: {
     youAre: "Вы",
@@ -245,6 +328,22 @@ const ru: Dict = {
       q: "Безопасен ли моногидрат креатина?",
       a: "Моногидрат креатина — одна из самых изученных добавок, и для здоровых взрослых в обычных дозах он считается безопасным. При болезнях почек или приёме лекарств сначала проконсультируйтесь с врачом.",
     },
+    {
+      q: "Вредит ли креатин почкам?",
+      a: "Для здоровых людей — нет. Годы исследований показывают, что обычные дозы креатина не вредят функции почек. Опасение связано с тем, что креатин немного повышает креатинин — маркер в анализах почек, но это безобидный эффект, а не повреждение. Если у вас уже есть болезнь почек, сначала проконсультируйтесь с врачом.",
+    },
+    {
+      q: "Можно ли смешивать креатин с протеином или кофе?",
+      a: "Да, и с тем, и с другим. Размешать креатин в протеиновом шейке — нормально и привычно. Старое мнение, что кофеин нейтрализует креатин, не подтвердилось, так что с кофе тоже можно. Подходят и тёплые, и холодные напитки, просто хорошо размешайте.",
+    },
+    {
+      q: "Сколько креатина принимать по моему весу?",
+      a: "Зависит от сухой массы, а не просто от общего веса — поэтому калькулятор спрашивает процент жира. Ориентир: большинство приходит к 3–5 г в день. Кто легче или суше — ближе к 3 г, кто тяжелее или мускулистее — к 5 г или чуть больше.",
+    },
+    {
+      q: "Нужно ли принимать креатин в дни отдыха?",
+      a: "Да. Цель — поддерживать мышцы насыщенными, поэтому принимайте суточную дозу каждый день, включая дни отдыха. В дни отдыха время приёма вообще не важно.",
+    },
   ],
   about: {
     title: "Стоит ли вообще принимать креатин?",
@@ -273,13 +372,80 @@ const ru: Dict = {
       },
     ],
   },
+  byline: {
+    text: "На основе рекомендаций ISSN по креатину",
+    published: "Опубликовано 16 июня 2026",
+    updated: "Обновлено 16 июня 2026",
+  },
+  sources: {
+    title: "Источники",
+    intro:
+      "Эти цифры не взяты с потолка. Дозировка следует рекомендациям Международного общества спортивного питания (ISSN) — основного научного консенсуса по креатину.",
+    formulaNote:
+      "Почему дозируем по сухой массе: креатин хранится в мышцах, поэтому сухая (безжировая) масса — более точная основа, чем общий вес. Стандартная поддерживающая доза составляет 3–5 г в день, и наш коэффициент около 0,06 г на кг сухой массы попадает в этот диапазон для большинства людей. Опциональная фаза загрузки (примерно в пять раз больше поддерживающей в течение 5–7 дней) повторяет классический протокол ~20 г в день из исследований.",
+    items: [
+      {
+        label: "ISSN Position Stand: безопасность и эффективность приёма креатина (2017)",
+        url: "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0173-z",
+      },
+      {
+        label: "ISSN: приём креатина в спорте, тренировках и медицине (2021)",
+        url: "https://jissn.biomedcentral.com/articles/10.1186/s12970-021-00412-w",
+      },
+    ],
+  },
+  aboutPage: {
+    metaTitle: "О проекте CreatineCalc — как мы считаем дозу креатина",
+    metaDescription:
+      "Кто стоит за CreatineCalc, как рассчитывается доза креатина и на каких исследованиях это основано.",
+    title: "О проекте CreatineCalc",
+    intro:
+      "CreatineCalc — небольшой независимый инструмент с одной задачей: подсказать, сколько креатина принимать, без лишней воды. Без регистрации, без навязывания и без кучи всплывающих окон — введите вес и процент жира и получите понятную цифру.",
+    methodologyTitle: "Как рассчитывается доза",
+    methodology1:
+      "Креатин хранится в мышцах, поэтому мы считаем дозу от сухой массы тела (вес минус жир), а не от общего веса. Вы выбираете уровень жира по силуэтам, мы оцениваем, сколько в вас мышц, и считаем дозу от этого.",
+    methodology2:
+      "Поддерживающая доза — около 0,06 г на кг сухой массы в день, что для большинства даёт привычные 3–5 г. Опциональная фаза загрузки — примерно в пять раз больше в первые 5–7 дней, что соответствует протоколу ~20 г в день из исследований. Всё это следует рекомендациям ISSN (см. раздел «Источники» на главной).",
+    disclaimerTitle: "Не медицинская рекомендация",
+    disclaimer:
+      "Это образовательный инструмент. Моногидрат креатина хорошо изучен и безопасен для большинства здоровых взрослых, но при болезнях почек или приёме лекарств сначала проконсультируйтесь с врачом.",
+    contactTitle: "Контакты",
+    contactText: "Нашли ошибку или есть вопрос? Напишите нам на",
+    back: "← Назад к калькулятору",
+  },
   footer: {
     disclaimer:
       "Это образовательный инструмент, а не медицинская рекомендация. Моногидрат креатина хорошо изучен и безопасен для большинства здоровых взрослых, но при проблемах с почками или приёме лекарств проконсультируйтесь с врачом.",
     home: "Главная",
+    about: "О проекте",
+    blog: "Гайды",
+    widget: "Виджет",
     privacy: "Политика конфиденциальности",
     cookieSettings: "Настройки cookie",
     rights: "Все права защищены.",
+  },
+  blog: {
+    metaTitle: "Гайды и статьи о креатине — CreatineCalc",
+    metaDescription:
+      "Понятные гайды о креатине: дозировка, загрузка, время приёма, безопасность и не только.",
+    title: "Гайды о креатине",
+    intro: "Короткие практичные материалы о том, как правильно принимать креатин.",
+    backToBlog: "← Все гайды",
+    ctaTitle: "Узнайте свою дозу креатина",
+    ctaNote: "Введите вес и процент жира, чтобы получить суточную дозу за секунды.",
+    ctaButton: "Открыть калькулятор",
+  },
+  widget: {
+    metaTitle: "Встройте калькулятор креатина на свой сайт",
+    metaDescription:
+      "Добавьте бесплатный калькулятор креатина на свой сайт одной строкой кода.",
+    title: "Встроить этот калькулятор",
+    intro:
+      "Ведёте фитнес-сайт, блог или форум? Добавьте калькулятор креатина на любую страницу кодом ниже. Это бесплатно — просим лишь небольшую ссылку на нас.",
+    codeTitle: "Скопируйте и вставьте этот код",
+    copy: "Скопировать код",
+    copied: "Скопировано!",
+    previewTitle: "Живой пример",
   },
   cookie: {
     text: "Мы используем cookie, чтобы запоминать ваши настройки и, если вы согласны, измерять трафик и показывать рекламу. См. нашу",

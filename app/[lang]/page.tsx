@@ -97,6 +97,9 @@ export default async function Home({
             {dict.hero.title}
           </h1>
           <p className="mx-auto mt-4 max-w-md text-lg text-muted">{dict.hero.subtitle}</p>
+          <p className="mt-3 text-xs text-muted/80">
+            {dict.byline.text} · {dict.byline.updated}
+          </p>
         </div>
 
         {/* Calculator */}
@@ -161,8 +164,33 @@ export default async function Home({
         </div>
       </section>
 
+      {/* Sources — EEAT: research links + formula provenance */}
+      <section id="sources" className="scroll-mt-20 border-t border-border">
+        <div className="mx-auto max-w-3xl px-5 py-14">
+          <h2 className="text-2xl font-extrabold tracking-tight">{dict.sources.title}</h2>
+          <p className="mt-3 text-muted">{dict.sources.intro}</p>
+          <p className="mt-3 text-sm leading-relaxed text-muted">
+            {dict.sources.formulaNote}
+          </p>
+          <ul className="mt-5 space-y-2">
+            {dict.sources.items.map((s) => (
+              <li key={s.url}>
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium text-accent hover:underline"
+                >
+                  {s.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* FAQ */}
-      <section id="faq" className="scroll-mt-20">
+      <section id="faq" className="scroll-mt-20 border-t border-border">
         <div className="mx-auto max-w-3xl px-5 py-14">
           <h2 className="text-2xl font-extrabold tracking-tight">{dict.faqTitle}</h2>
           <div className="mt-6 divide-y divide-border">
