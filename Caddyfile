@@ -1,0 +1,11 @@
+# Caddy automatically gets and renews a free HTTPS certificate for this domain.
+# It must point (via DNS) at this server, and ports 80/443 must be open.
+gymscalp.online {
+	reverse_proxy app:3000
+}
+
+# Optional: also serve www and redirect it to the main domain.
+# Requires an A record for www pointing at this server.
+# www.gymscalp.online {
+# 	redir https://gymscalp.online{uri}
+# }

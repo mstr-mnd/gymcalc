@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ---- Light theme ---- */
+@theme {
+  --color-base: #f6f7f9; /* alternating sections, header, footer */
+  --color-surface: #ffffff; /* main page background */
+  --color-elevated: #ffffff; /* cards */
+  --color-elevated-hover: #f1f3f5;
+  --color-border: #e5e7eb;
+  --color-accent: #16a34a; /* green-600, readable on white */
+  --color-accent-bright: #15803d; /* green-700, darker for hover */
+  --color-text: #18181b; /* near-black */
+  --color-muted: #6b7280; /* gray-500 */
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-montserrat);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Green pill button */
+.btn-accent {
+  background-color: var(--color-accent);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 9999px;
+  transition: transform 0.1s ease, background-color 0.1s ease;
+}
+.btn-accent:hover {
+  background-color: var(--color-accent-bright);
+  transform: scale(1.04);
+}
+
+/* Soft green glow behind the hero */
+.hero-glow {
+  background: radial-gradient(
+    120% 120% at 50% 0%,
+    rgba(22, 163, 74, 0.12) 0%,
+    rgba(22, 163, 74, 0.04) 40%,
+    transparent 70%
+  );
+}
+
+/* Clean number input: hide spinners */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
