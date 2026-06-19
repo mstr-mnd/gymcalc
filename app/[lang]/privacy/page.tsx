@@ -3,10 +3,8 @@ import Link from "next/link";
 import { isLocale, defaultLocale, SITE_URL, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 
-// TODO: replace the bracketed placeholders with your real details before publishing,
-// and have a lawyer review this for your jurisdiction.
-const COMPANY = "[Your Company / Your Name]";
-const EMAIL = "[your-email@example.com]";
+const COMPANY = "CreatineCalc";
+const EMAIL = "artemsavi18@gmail.com";
 const DOMAIN = "gymscalp.online";
 
 const fill = (tpl: string, vars: Record<string, string>) =>

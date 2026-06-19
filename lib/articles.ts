@@ -185,6 +185,210 @@ export const articles: Article[] = [
       ],
     },
   },
+  {
+    slug: "creatine-monohydrate-vs-other-forms",
+    date: "2026-06-19",
+    en: {
+      title: "Creatine Monohydrate vs HCl, Ethyl Ester and the Rest",
+      description:
+        "Fancy forms promise better absorption and no bloating. The research keeps landing on plain monohydrate. Here is why.",
+      body: [
+        { p: "Walk into any supplement shop and you will see creatine HCl, ethyl ester, buffered, liquid, and more — usually at a higher price than plain monohydrate. The marketing promises better absorption and less water retention. The evidence tells a simpler story." },
+        { h: "Why monohydrate is the standard" },
+        { p: "Creatine monohydrate is the form used in the vast majority of studies, and it has decades of safety and effectiveness data behind it. It is cheap, it dissolves well enough, and it reliably saturates your muscles. When researchers compare it head-to-head with newer forms, monohydrate either wins or ties — it rarely loses." },
+        { h: "What about HCl and the others?" },
+        { p: "Creatine HCl is more soluble in water, which is its main real advantage: you can mix a smaller scoop. But more soluble does not mean more effective once it is inside you. Ethyl ester actually performs worse in some studies because it breaks down before reaching the muscle. Buffered and liquid versions have not shown a meaningful edge either." },
+        { h: "Does form change your dose?" },
+        { p: "Your effective dose is about how much creatine reaches your muscles, and that is driven by your lean mass — not the label on the tub. Whichever form you buy, base your daily amount on your body. Put your weight and body fat into the calculator and it gives you a target you can use with any form." },
+        { p: "Bottom line: monohydrate is the cheapest and the best-studied. Unless solubility is a dealbreaker for you, there is no strong reason to pay more." },
+      ],
+    },
+    ru: {
+      title: "Моногидрат креатина против HCl, этил-эфира и прочих форм",
+      description:
+        "Модные формы обещают лучшее усвоение и отсутствие отёков. Исследования снова и снова выбирают обычный моногидрат. Разбираемся почему.",
+      body: [
+        { p: "В любом магазине добавок вы увидите креатин HCl, этил-эфир, буферизованный, жидкий и другие формы — обычно дороже обычного моногидрата. Маркетинг обещает лучшее усвоение и меньше задержки воды. Данные говорят проще." },
+        { h: "Почему моногидрат — стандарт" },
+        { p: "Моногидрат креатина — это форма из подавляющего большинства исследований, за ней десятилетия данных по безопасности и эффективности. Он дешёвый, неплохо растворяется и надёжно насыщает мышцы. Когда его сравнивают напрямую с новыми формами, моногидрат либо выигрывает, либо вничью — проигрывает редко." },
+        { h: "А что с HCl и остальными?" },
+        { p: "Креатин HCl лучше растворяется в воде — это его главное реальное преимущество: меньше мерная ложка. Но лучше растворяется не значит эффективнее внутри тела. Этил-эфир в части исследований даже хуже, потому что распадается, не дойдя до мышцы. Буферизованные и жидкие версии тоже не показали заметного превосходства." },
+        { h: "Меняет ли форма дозу?" },
+        { p: "Ваша рабочая доза — это сколько креатина доходит до мышц, а это зависит от сухой массы, а не от надписи на банке. Какую бы форму вы ни купили, считайте суточное количество по своему телу. Введите вес и процент жира в калькулятор — он даст цель, которая подходит к любой форме." },
+        { p: "Итог: моногидрат — самый дешёвый и лучше всего изученный. Если растворимость для вас не критична, переплачивать незачем." },
+      ],
+    },
+  },
+  {
+    slug: "does-creatine-cause-hair-loss",
+    date: "2026-06-19",
+    en: {
+      title: "Does Creatine Cause Hair Loss? What the Evidence Actually Shows",
+      description:
+        "The hair-loss fear traces back to a single small study about a hormone — not about hair. Here is the honest picture.",
+      body: [
+        { p: "The idea that creatine causes baldness is one of the stickiest worries online, and it comes from one small study. Look at what that study actually measured and the fear gets a lot smaller." },
+        { h: "Where the worry comes from" },
+        { p: "A 2009 study in rugby players found that creatine raised levels of DHT, a hormone linked to male-pattern baldness in people who are genetically prone to it. That is the entire basis of the claim. The study did not measure hair loss at all — only the hormone." },
+        { h: "What is missing from the story" },
+        { p: "No study since has shown that creatine actually makes hair fall out. Other research has not even reliably reproduced the DHT increase. So we have one hormone signal in one small group, no direct evidence of thinning hair, and years of creatine use by millions of people without a hair-loss pattern showing up." },
+        { h: "Should you worry?" },
+        { p: "If you are genetically prone to male-pattern baldness, it is reasonable to be cautious and watch how you respond — but there is no solid evidence that creatine will speed it up. For most people this is a myth built on a single indirect finding." },
+        { p: "Bottom line: the hair-loss link is weak and unproven. If you take creatine, dose it sensibly for your body — the calculator handles that part in seconds." },
+      ],
+    },
+    ru: {
+      title: "Вызывает ли креатин выпадение волос? Что показывают данные",
+      description:
+        "Страх облысения тянется от одного маленького исследования про гормон — не про волосы. Даём честную картину.",
+      body: [
+        { p: "Мысль, что креатин вызывает облысение, — один из самых живучих страхов в сети, и идёт он от одного небольшого исследования. Стоит посмотреть, что в нём на самом деле измеряли, и страх заметно уменьшается." },
+        { h: "Откуда взялось опасение" },
+        { p: "В исследовании 2009 года на регбистах нашли, что креатин поднял уровень ДГТ — гормона, связанного с облысением по мужскому типу у генетически предрасположенных людей. На этом построено всё утверждение. Само выпадение волос исследование не измеряло вообще — только гормон." },
+        { h: "Чего не хватает в этой истории" },
+        { p: "Ни одно исследование с тех пор не показало, что креатин реально приводит к выпадению волос. Другие работы даже не смогли надёжно воспроизвести рост ДГТ. Итого: один гормональный сигнал в одной небольшой группе, нет прямых данных о поредении волос и годы приёма креатина миллионами людей без проявившейся картины облысения." },
+        { h: "Стоит ли беспокоиться?" },
+        { p: "Если у вас есть генетическая склонность к облысению по мужскому типу, осторожность и наблюдение за реакцией разумны — но твёрдых доказательств, что креатин ускорит процесс, нет. Для большинства это миф на одном косвенном наблюдении." },
+        { p: "Итог: связь с выпадением волос слабая и недоказанная. Если принимаете креатин — считайте дозу разумно под своё тело, калькулятор делает это за секунды." },
+      ],
+    },
+  },
+  {
+    slug: "how-long-does-creatine-take-to-work",
+    date: "2026-06-19",
+    en: {
+      title: "How Long Does Creatine Take to Work?",
+      description:
+        "Days if you load, a few weeks if you do not. Here is the realistic timeline for feeling and seeing creatine work.",
+      body: [
+        { p: "Creatine is not a stimulant, so do not expect a kick the first time you take it. It works by slowly filling your muscle stores, and the timeline depends mostly on whether you load." },
+        { h: "If you load: about a week" },
+        { p: "With a loading phase — roughly 20 g a day split into servings for five to seven days — your muscles reach full saturation in under a week. Many people notice slightly better strength endurance and a fuller look in the muscles right after that." },
+        { h: "If you do not load: three to four weeks" },
+        { p: "Taking a steady daily dose without loading gets you to the same fully saturated point, just slower — usually three to four weeks. The end result is identical; loading only changes the speed, not the ceiling." },
+        { h: "What 'working' actually feels like" },
+        { p: "The effects are real but subtle: a rep or two more on hard sets, a bit more in the tank late in a workout, faster recovery between sessions. The dramatic part is what builds over months of training with that small edge — not a single-session jolt." },
+        { p: "Bottom line: a week with loading, a month without, then steady performance as long as you keep taking it daily. Get your loading and maintenance numbers from the calculator." },
+      ],
+    },
+    ru: {
+      title: "Через сколько начинает действовать креатин?",
+      description:
+        "Дни, если грузитесь, пара недель — если нет. Даём реалистичный график, когда креатин чувствуется и виден.",
+      body: [
+        { p: "Креатин — не стимулятор, так что не ждите эффекта с первого приёма. Он работает за счёт медленного наполнения запасов в мышцах, и срок зависит в основном от того, делаете ли вы загрузку." },
+        { h: "С загрузкой: примерно неделя" },
+        { p: "При фазе загрузки — около 20 г в день в несколько приёмов 5–7 дней — мышцы насыщаются полностью меньше чем за неделю. Многие сразу после этого замечают чуть лучшую силовую выносливость и более наполненный вид мышц." },
+        { h: "Без загрузки: три-четыре недели" },
+        { p: "Ровная суточная доза без загрузки приводит к той же полной насыщенности, просто медленнее — обычно за три-четыре недели. Итог тот же; загрузка меняет только скорость, не потолок." },
+        { h: "Как ощущается, что креатин «работает»" },
+        { p: "Эффект реальный, но тонкий: повтор-другой сверху в тяжёлых подходах, чуть больше запаса под конец тренировки, быстрее восстановление между занятиями. Главное накапливается за месяцы тренировок с этим небольшим преимуществом, а не как разовый всплеск." },
+        { p: "Итог: неделя с загрузкой, месяц без, дальше — стабильная отдача, пока принимаете каждый день. Дозу загрузки и поддержки даст калькулятор." },
+      ],
+    },
+  },
+  {
+    slug: "creatine-and-water-weight",
+    date: "2026-06-19",
+    en: {
+      title: "Creatine and Water Weight: Why the Scale Jumps",
+      description:
+        "A quick 1-2 kg bump on the scale scares people off creatine. It is water inside the muscle, not fat. Here is what is happening.",
+      body: [
+        { p: "Start creatine and the scale often climbs a kilogram or two within a couple of weeks. That jump makes people panic and quit. It is worth understanding, because it is not fat and it is not a bad sign." },
+        { h: "Where the weight comes from" },
+        { p: "Creatine pulls water into your muscle cells along with itself. That extra water is stored inside the muscle, which is part of how creatine helps performance. So the early weight gain is mostly intracellular water, not body fat and not bloat sitting under your skin." },
+        { h: "Will you look puffy?" },
+        { p: "Generally no. Because the water goes into the muscle rather than around it, most people look the same or slightly fuller, not softer. The 'creatine bloat' reputation is overblown for normal daily doses; heavy loading is more likely to cause a temporary watery feeling." },
+        { h: "Does it ever go away?" },
+        { p: "The initial water bump levels off once your muscles are saturated — it does not keep climbing. If you stop creatine, that water weight gradually comes back off over a few weeks. It is a one-time shift, not endless gain." },
+        { p: "Bottom line: the early scale jump is water in your muscle, and it stabilises. Keeping your dose sensible keeps it minimal — the calculator sets that for your body." },
+      ],
+    },
+    ru: {
+      title: "Креатин и вес воды: почему весы прыгают",
+      description:
+        "Быстрый плюс 1–2 кг на весах пугает и отталкивает от креатина. Это вода внутри мышцы, не жир. Объясняем, что происходит.",
+      body: [
+        { p: "Начинаете креатин — и весы за пару недель часто прибавляют килограмм-другой. Этот скачок пугает, и люди бросают. Стоит разобраться, потому что это не жир и не плохой знак." },
+        { h: "Откуда берётся вес" },
+        { p: "Креатин затягивает воду в мышечные клетки вместе с собой. Эта вода хранится внутри мышцы — отчасти так креатин и помогает работоспособности. Поэтому ранняя прибавка — это в основном внутриклеточная вода, а не жир и не отёк под кожей." },
+        { h: "Будете ли выглядеть отёчным?" },
+        { p: "Обычно нет. Поскольку вода уходит внутрь мышцы, а не вокруг неё, большинство выглядит так же или чуть наполненнее, а не рыхлее. Репутация «креатинового отёка» преувеличена для обычных суточных доз; временное ощущение воды вероятнее при тяжёлой загрузке." },
+        { h: "Это когда-нибудь уходит?" },
+        { p: "Начальная прибавка воды выходит на плато, как только мышцы насыщены — дальше не растёт. Если бросить креатин, эта вода постепенно уходит за несколько недель. Это разовый сдвиг, а не бесконечный набор." },
+        { p: "Итог: ранний скачок на весах — вода в мышце, и он стабилизируется. Разумная доза держит его минимальным — калькулятор задаёт её под ваше тело." },
+      ],
+    },
+  },
+  {
+    slug: "creatine-on-rest-days",
+    date: "2026-06-19",
+    en: {
+      title: "Should You Take Creatine on Rest Days?",
+      description:
+        "Yes — and it is one of the most important habits with creatine. Here is why off-days still count.",
+      body: [
+        { p: "A common question once people start creatine: do you skip it on days you do not train? The short answer is no — take it on rest days too. Here is the logic." },
+        { h: "Creatine is about saturation, not timing" },
+        { p: "Creatine helps because your muscles stay topped up over time, not because of a hit on workout day. Keeping that store full is a daily job. Skipping rest days slowly lets the level drift down, which works against the whole point of taking it." },
+        { h: "Does the dose change on off days?" },
+        { p: "No. Once your muscles are saturated, you take the same maintenance dose every day to keep them there — training day or not. There is no need to take more after a workout or less on a rest day." },
+        { h: "When should you take it on a rest day?" },
+        { p: "Whenever you will remember. With no workout to anchor it to, just attach it to a daily habit — morning coffee, a meal, whatever is reliable. Consistency is the only rule that matters." },
+        { p: "Bottom line: take creatine every day, training or not, at the same dose. Not sure what that dose is? The calculator gives you a maintenance number for your body." },
+      ],
+    },
+    ru: {
+      title: "Нужно ли принимать креатин в дни отдыха?",
+      description:
+        "Да — и это одна из важнейших привычек с креатином. Объясняем, почему дни без тренировок тоже считаются.",
+      body: [
+        { p: "Частый вопрос после старта креатина: пропускать ли его в дни без тренировок? Короткий ответ — нет, в дни отдыха тоже принимайте. Вот логика." },
+        { h: "Креатин про насыщение, а не про время приёма" },
+        { p: "Креатин помогает потому, что мышцы постоянно держатся наполненными, а не из-за дозы в день тренировки. Поддержание запаса — ежедневная задача. Пропуск дней отдыха постепенно уводит уровень вниз, а это против самого смысла приёма." },
+        { h: "Меняется ли доза в выходной?" },
+        { p: "Нет. Когда мышцы насыщены, вы принимаете ту же поддерживающую дозу каждый день, чтобы их там держать — тренировка или нет. Не нужно больше после тренировки или меньше в день отдыха." },
+        { h: "Когда принимать в день отдыха?" },
+        { p: "Когда не забудете. Тренировки, к которой привязаться, нет — привяжите к ежедневной привычке: утренний кофе, приём пищи, что угодно надёжное. Регулярность — единственное важное правило." },
+        { p: "Итог: принимайте креатин каждый день, тренировка или нет, в той же дозе. Не знаете, какой? Калькулятор даст поддерживающую цифру под ваше тело." },
+      ],
+    },
+  },
+  {
+    slug: "creatine-for-older-adults",
+    date: "2026-06-19",
+    en: {
+      title: "Creatine for Older Adults: Muscle, Strength and Brain",
+      description:
+        "Creatine may be most useful later in life, not just in the gym at 25. Here is what it offers as you age.",
+      body: [
+        { p: "Creatine is usually marketed to young lifters, but some of the most interesting research is in people over fifty. As you age, holding onto muscle and strength becomes a health priority — and creatine fits right into that." },
+        { h: "Fighting age-related muscle loss" },
+        { p: "After about fifty, adults gradually lose muscle and strength, a process called sarcopenia. Studies show that creatine combined with resistance training helps older adults gain more strength and muscle than training alone. The training does the work; creatine adds to the result." },
+        { h: "Bone and everyday function" },
+        { p: "Because creatine supports strength and the ability to train harder, research is exploring benefits for bone health and practical things like balance and getting up from a chair — the functions that keep people independent later in life." },
+        { h: "What about the brain?" },
+        { p: "An emerging line of research suggests creatine may support cognition and mental energy, with effects that could be more noticeable in older adults and in people who are sleep-deprived or under stress. It is promising rather than settled, but it adds to the case." },
+        { p: "Bottom line: creatine pairs especially well with strength training as you age. Dose it for your body — the calculator gives you a number based on your lean mass." },
+      ],
+    },
+    ru: {
+      title: "Креатин для пожилых: мышцы, сила и мозг",
+      description:
+        "Креатин может быть полезнее всего в зрелом возрасте, а не только в зале в 25. Разбираем, что он даёт с годами.",
+      body: [
+        { p: "Креатин обычно рекламируют молодым атлетам, но часть самых интересных исследований — на людях старше пятидесяти. С возрастом сохранение мышц и силы становится вопросом здоровья — и креатин сюда хорошо вписывается." },
+        { h: "Борьба с возрастной потерей мышц" },
+        { p: "Примерно после пятидесяти взрослые постепенно теряют мышцы и силу — это называется саркопения. Исследования показывают, что креатин в сочетании с силовыми тренировками помогает пожилым набрать больше силы и мышц, чем одни тренировки. Работу делает тренинг; креатин добавляет к результату." },
+        { h: "Кости и повседневная функция" },
+        { p: "Поскольку креатин поддерживает силу и способность тренироваться тяжелее, исследования изучают пользу для здоровья костей и практических вещей — равновесия, подъёма со стула, то есть функций, которые сохраняют самостоятельность в зрелом возрасте." },
+        { h: "А что с мозгом?" },
+        { p: "Развивающееся направление исследований предполагает, что креатин может поддерживать когнитивные функции и умственную энергию, причём эффект заметнее у пожилых и у людей в недосыпе или под стрессом. Это скорее перспективно, чем доказано окончательно, но добавляет аргументов." },
+        { p: "Итог: креатин особенно хорошо сочетается с силовыми тренировками с возрастом. Дозируйте под своё тело — калькулятор даст цифру по сухой массе." },
+      ],
+    },
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
